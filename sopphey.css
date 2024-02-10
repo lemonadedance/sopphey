@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFF33;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #39FF14;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFFF33;
+}
+#indexRootDiv {
+    text-align: center;
+    width: 60%;
+    margin: 5% auto;
+}
+html {
+    background-size: 100%;
+    background-image: url(SMPTE_Color_Bars.svg);
+}
+#indexFieldSet {
+    border: 5px;
+    border-color: #1B03A3;
+    border-style: solid;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+.designedButton{
+    background-color: black;
+    border-radius: 9px;
+    border-color: #569cd6;
+    border: 1.5px solid;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF69B4;
+    font-weight: bold;
+    margin: auto;
+    padding: 7px 12px;
+}
+input {
+    background-color: black;
+    border: 1.5px solid;
+    border-color:#FFFF33;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFF33;
+    padding: 7px 12px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    width: 20%;
+    margin: 5% auto;
+}
+a:link {
+    color: #39FF14;
+    text-decoration-color: #FF69B4;
+}
+a:visited{
+    color: #FF69B4;
+    text-decoration-color: #FF69B4;
+}
