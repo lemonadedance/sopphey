@@ -28,6 +28,9 @@ html {
     text-align: center;
     background-color: black;
 }
+#baseItemsTable{
+    width: 100%;
+}
 .designedButton{
     background-color: black;
     border-radius: 9px;
