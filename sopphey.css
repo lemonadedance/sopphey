@@ -8,7 +8,7 @@ h2 {
 }
 p {
     font-family: 'Courier New', Courier, monospace;
-    color:#FFFF33;
+    color:#50BFE6;
 }
 #indexRootDiv {
     text-align: center;
@@ -32,6 +32,8 @@ html {
     width: 100%;
 }
 .designedButton{
+    width: 100%;
+    height: 40px;
     background-color: black;
     border-radius: 9px;
     border-color: #569cd6;
