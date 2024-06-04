@@ -1,2 +1,29 @@
 <!DOCTYPE html>
+<head>
+    <title>Affirmations For You</title>
+    <link href="sopphey.css" rel="stylesheet">
+</head>
+<body>
+    <div id="indexRootDiv">
+        <fieldset id="indexFieldSet">
+            <h1>* * * AFFIRMATIONS FOR YOU * * *</h1>
+            <p>Welcome to the Affirmations For You Web App.</p>
+            <div id="indexResponse"></div>
+            <button class="designedButton" onclick="loadUp()" type="submit">
+                Click here for an affirmation.</button>
+            <br />
+            <button class="designedButton" onclick="resetPage()" type="submit">Click here to start again.</button>    
+        </fieldset>
+    </div>
+</body>
+<script src="sopphey.js"></script>
+<footer>
+    <p>© 2024
+        <script>
+        if (new Date().getFullYear() != 2024) {
+           document.write(' - ' + new Date().getFullYear());
+        }</script>
+    </p>
+    <p><a href="https://github.com/lemonadedance">lemonadedance |</a> <a href="https://sopphey.com"> sopphey's site</a> </p>
+</footer>
 </html>

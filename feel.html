@@ -1,2 +1,31 @@
 <!DOCTYPE html>
+<head>
+    <title>It's O.K. To Feel...</title>
+    <link href="sopphey.css" rel="stylesheet">
+</head>
+<body>
+    <div id="indexRootDiv">
+        <fieldset id="indexFieldSet">
+            <h1>* * * IT'S O.K. TO FEEL... * * *</h1>
+            <p>Welcome to the It's O.K. To Feel... App. This is mostly for those of us that bottle up all of our feelings.
+            </p>
+            <p>For certain:</p>
+            <div id="indexResponse"></div>
+            <button class="designedButton" onclick="loadFeeling()" type="submit">
+                Click here for a feeling.</button>
+            <br />
+            <button class="designedButton" onclick="resetPage()" type="submit">Click here to start again.</button>    
+        </fieldset>
+    </div>
+</body>
+<script src="sopphey.js"></script>
+<footer>
+    <p>© 2024
+        <script>
+        if (new Date().getFullYear() != 2024) {
+           document.write(' - ' + new Date().getFullYear());
+        }</script>
+    </p>
+    <p><a href="https://github.com/lemonadedance">lemonadedance |</a> <a href="https://sopphey.com"> sopphey's site</a> </p>
+</footer>
 </html>

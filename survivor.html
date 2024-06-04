@@ -1,2 +1,37 @@
 <!DOCTYPE html>
+    <head>
+        <title> You Are A Survivor Web App
+        </title>
+        <link href="sopphey.css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="indexRootDiv">
+        <fieldset id="indexFieldSet">
+            <h1>* * * YOU ARE A SURVIVOR * * *
+            </h1>
+            <label for="userAge">
+                <h2>What is your age in years?
+                </h2>
+            </label>
+            <input id="userAge" type="number" placeholder="54" min="1" max="999">
+            <br />
+            <br />
+            <br />
+            <button class="designedButton" type="submit" onclick="enterUserAge()">Click here to submit your age.</button>
+            <br />
+            <div id="indexResponse"></div> 
+            <button class="designedButton" onclick="resetPage()" type="submit">Click here to start again.</button>
+        </fieldset>
+    </div>
+    </body>
+    <script src="sopphey.js"></script>
+    <footer>
+        <p>© 2023
+        <script>    
+        if (new Date().getFullYear() != 2023) {
+           document.write(' - ' + new Date().getFullYear());
+        }</script>
+    </p>
+    <p><a href="https://github.com/lemonadedance">lemonadedance |</a> <a href="https://sopphey.com"> sopphey's</a> </p>
+    </footer>
 </html>
