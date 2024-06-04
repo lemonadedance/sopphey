@@ -3,8 +3,24 @@
 function resetPage(){
     location.reload();
 }
-/* * * * * * * * * * * breathe.html JS * * * * * * * * * * */
 
+/* * * * * * * * * * * breathe.html JS * * * * * * * * * * */
+var i = 1;
+
+function breatheIn() {
+    document.getElementById("indexResponse").insertAdjacentHTML("afterend", "<p> breathe in oxygen <p>");
+}
+
+function breatheOut(){
+    document.getElementById("indexResponse").insertAdjacentHTML("afterend", "<p> breathe out oxygen <p>");
+}
+
+/*
+breathe in oxygen
+wait 2 seconds
+document.body.style.background = "#141627";
+breathe out oxygen
+wait 3 seconds*/
 /* * * * * * * * * * * affirmations.html JS * * * * * * * * * * */
 const affirmationsList = ["able", "accepting", "accommodating", "accomplished", "accurate", "adaptable", "adept",
     "adequate", "adored", "adoring", "adventurous", "advocate", "affectionate", "affirming", "affluent", "agreeable",
